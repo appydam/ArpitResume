@@ -155,7 +155,7 @@ section:nth-child(2n + 1) {
 }
 
 #letter-A{
-    margin-top: 55px;
+    /* margin-top: 55px; */
     margin-left: 30%x;
     padding: 0;
     display: inline;
