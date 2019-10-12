@@ -73,6 +73,7 @@ body::-webkit-scrollbar {
     list-style: none;
     color: white;
     text-decoration: none;
+    font-size: 25px;
 }
 
 .horizontal-list {
@@ -112,7 +113,7 @@ body::-webkit-scrollbar {
 
 .social-icons li a i {
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 50%;
 }
 
@@ -181,7 +182,7 @@ section:nth-child(2n + 1) {
     height: 12rem;
     width: 12rem;
     margin: auto;
-    margin-top: -14vh;
+    margin-top: -5.5vh;
 }
 
 #my-image img {
@@ -556,18 +557,22 @@ button:focus {
 
 .mb-blue {
     background-color: #2857a4;
+    background-image:linear-gradient(#2857a4,rgb(174, 224, 247));
 }
 
 .mb-orange {
-    background-color: #ec4d1c;
+    /* background-color: #dd704f; */
+    background-image:linear-gradient(rgb(247, 151, 43) ,rgb(245, 247, 137));
 }
 
 .mb-teal {
     background-color: #0b8176;
+    background-image:linear-gradient(#0b8176,rgb(162, 224, 162));
 }
 
 .mb-light-purple {
-    background-color: #93738c;
+    background-image:linear-gradient(#9e4b8c,rgb(243, 190, 230));
+    /* background-color: #9e4b8c; */
 }
 
 
