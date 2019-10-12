@@ -104,7 +104,7 @@ body::-webkit-scrollbar {
 }
 
 #my-name {
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 0.1rem;
     color: rgb(251, 249, 253);
     font-weight: 700;
@@ -162,7 +162,7 @@ section:nth-child(2n + 1) {
 }
 #letter-D{
     
-    margin-top: 170px;
+    margin-top: 140px;
     margin-left: -8px;
     padding: 0;
 }
@@ -183,6 +183,7 @@ section:nth-child(2n + 1) {
     width: 12rem;
     margin: auto;
     margin-top: -5.5vh;
+    position: sticky;
 }
 
 #my-image img {
