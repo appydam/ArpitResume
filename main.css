@@ -66,7 +66,7 @@ body::-webkit-scrollbar {
 
 .no-list-style li {
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: rem;
 }
 
 .no-list-style li a{
