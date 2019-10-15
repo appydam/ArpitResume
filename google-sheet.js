@@ -1,3 +1,7 @@
+// $("btttt").click(function(){
+//     alert("Your info submitted");
+//   });
+
 // Variable to hold request
 var request;
 
@@ -62,3 +66,8 @@ $("#contact-form").submit(function(event){
 });
 
 
+$(document).ready(function() {
+    $("#btttt").click(function(){
+        alert("Your message and info has been submitted , click on OK to proceed");
+    }); 
+});
